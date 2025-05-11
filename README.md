@@ -7,7 +7,7 @@
 - DESCRIPTION OF DATA
 - DATA PREPROCESSING
 - EXPLORATORY DATA ANALYSIS (EDA)
-- 
+- DATA VISUALIZATION
 
 # DATADNA HEALTHCARE DATASET ANALYSIS - OVERVIEW
 This project involves the development of an interactive Power BI dashboard to analyze and visualize patient care data from 55,500 unique records across 10 major hospitals in the United States. The dataset includes detailed information on hospital admissions, medical conditions, prescribed medications, insurance providers, and treatment costs.
@@ -54,7 +54,7 @@ The dataset contains columns such as:
   * Checked and standardized column formats (e.g., dates, numerical values, categorical data) to enable consistent and reliable reporting in Power BI.
 
 # EXPLORATORY DATA ANALYSIS (EDA)
-new columns were created - 
+New columns created using DAX formulas as follows: 
 - Age Groups: Categorized patient ages into four defined groups for easier demographic analysis:
   * 0-17
   * 18-39
@@ -77,3 +77,5 @@ new columns were created -
     - Massachusetts General Hospital
     - NewYork-Presbyterian Hospital
 - Admission Year: Extracted the year from the Date of Admission column to analyze trends over time (2019–2024).
+
+# DATA VISUALIZATION
